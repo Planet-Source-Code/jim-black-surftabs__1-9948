@@ -1,0 +1,11 @@
+frmBrowser = 6, -1, 749, 639, C, 23, 2, 889, 639, C
+clsSysTray = 43, 8, 701, 620, C
+Constants = 28, 89, 710, 587, C
+Registry = 51, 21, 733, 524, C
+SharedFunctions = 26, 14, 868, 554, 
+frmOpen = 21, 24, 759, 527, C, 66, 66, 588, 357, C
+frmOptions = 21, 16, 725, 499, C, 278, 49, 722, 532, C
+frmAbout = 112, 30, 633, 488, C, 114, 44, 647, 443, C
+modCommon = 84, 17, 720, 644, C
+frmSource = 17, 11, 605, 623, C, 27, 15, 666, 642, C
+Favorites = 37, 19, 648, 646, C

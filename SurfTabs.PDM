@@ -1,0 +1,205 @@
+[Root]
+Most Recent Package=SurfTabs
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Jimb\SurfTabs\Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINNT\SYSTEM32\shfolder.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\tabctl32.ocx=
+C:\WINNT\SYSTEM32\comdlg32.ocx=
+C:\WINNT\SYSTEM32\COMCT332.OCX=
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\Jimb\SurfTabs\SurfTabs.exe=Yes
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINNT\SYSTEM32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\shfolder.dll=Yes
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINNT\SYSTEM32\COMCT332.OCX=Yes
+C:\WINNT\SYSTEM32\comdlg32.ocx=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Msinet.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\Jimb\SurfTabs\SurfTabs.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\shfolder.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Msinet.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\Jimb\SurfTabs\SurfTabs.exe=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=SurfTabs
+
+[Package|Dep File 1|IconGroups]
+Group0=Tiger Studios
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Dep File 1|Tiger Studios]
+Icon1=SurfTabs.exe
+Title1=SurfTabs
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=SurfTabs.CAB
+DepCabRun=SurfTabs.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\Jimb\SurfTabs\Package
+ProjectFolder=C:\jimb\SurfTabs
+ServerSideCab=
+File1=C:\Jimb\SurfTabs\Package\SurfTabs.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SurfTabs|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Jimb\SurfTabs\Package
+
+[Package|SurfTabs|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SurfTabs|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SurfTabs|Files Found]
+
+[Package|SurfTabs|Files Released]
+
+[Package|SurfTabs|Missing Dependency Information]
+C:\WINNT\SYSTEM32\shfolder.dll=
+
+[Package|SurfTabs|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\tabctl32.ocx=
+C:\WINNT\SYSTEM32\comdlg32.ocx=
+C:\WINNT\SYSTEM32\COMCT332.OCX=
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=
+
+[Package|SurfTabs|Files Added]
+
+[Package|SurfTabs|Files Removed]
+
+[Package|SurfTabs|Files In Project]
+C:\Jimb\SurfTabs\SurfTabs.exe=Yes
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=Yes
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINNT\SYSTEM32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\SYSTEM32\shfolder.dll=Yes
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINNT\SYSTEM32\COMCT332.OCX=Yes
+C:\WINNT\SYSTEM32\comdlg32.ocx=Yes
+C:\WINNT\SYSTEM32\tabctl32.ocx=Yes
+C:\WINNT\SYSTEM32\Msinet.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|SurfTabs|Configure Registry Files]
+Applicable=No
+
+[Package|SurfTabs|Configure Remote Servers]
+Applicable=No
+
+[Package|SurfTabs|Install Locations]
+C:\Jimb\SurfTabs\SurfTabs.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\shfolder.dll=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\COMCT332.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\comdlg32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\tabctl32.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\Msinet.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|SurfTabs|Configure Shared Files]
+Applicable=Yes
+C:\Jimb\SurfTabs\SurfTabs.exe=No
+
+[Package|SurfTabs|Distribution]
+Type=single
+Size=
+Title=SurfTabs
+
+[Package|SurfTabs|Package]
+PackageFolder=C:\Jimb\SurfTabs\Package
+ProjectFolder=C:\Jimb\SurfTabs
+ServerSideCab=
+File1=C:\Jimb\SurfTabs\Package\setup.exe
+File2=C:\Jimb\SurfTabs\Package\Setup.Lst
+File3=C:\Jimb\SurfTabs\Package\SurfTabs.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SurfTabs|IconGroups]
+Group0=Tiger Studios
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SurfTabs|Tiger Studios]
+Icon1=SurfTabs.exe
+Title1=SurfTabs
+StartIn1=$(AppPath)
+Key1=Icon1
